@@ -1,0 +1,28 @@
+How to Sign Up for GitHub I. Introduction
+
+1.1 Purpose:
+GitHub is valuable collaboration tool that streamline management and communication between team members during a project. This document is to guide individuals through the process of registering for a new GitHub account.
+
+1.2 Scope:
+This document only covers how to register for a GitHub account, it does not cover how to sign in and how to create your first project
+
+II. How to Sign Up for GitHub
+1. Go to GitHub.com
+2. In the top right-hand corner of the screen, click the "Sign up" tab
+3. Enter the required information:
+  ◦ Email: Provide a valid email address.
+  ◦ Password: Create a strong password that is between 8 and 15 characters long. It should include a mix of lowercase and uppercase letters, symbols and numbers. Eg:Ih@teM0ndayS
+  ◦ Username: Choose a username that contains only alphanumeric characters or single hyphens. It cannot begin or end with a hyphen.
+  ◦ Country: Select your country from the dropdown list.
+4. Click the "Continue" button
+5. Verify your account by completing a puzzle. You will have the option to choose between a visual or an audio puzzle. Click the appropriate button
+6. Complete the puzzle and click the "Verify" or "Complete" button
+7. Check your email inbox. GitHub will have sent you a verification code. Enter this code on the GitHub website
+8. You will now be directed to the GitHub login screen. Enter your username or email address and your password 
+9. Click the "Sign in" or "Log in" button
+10. Congratulations! You are now logged in to GitHub.
+
+We recommend taking the opportunity to explore the learning material about "Introduction to GitHub" and introducing yourself to the community using the "Introduce yourself with a profile README" feature.
+
+III. Key Takeaways
+The process of creating a GitHub account presents few challenges and is generally straightforward, with ample information available if needed. Ensuring easy access to your email is important for the account verification. Signing up on a laptop can streamline the process of accessing both your email and the GitHub website. The sign-up process can be completed quickly, as demonstrated by a successful registration in approximately 5 minutes 
