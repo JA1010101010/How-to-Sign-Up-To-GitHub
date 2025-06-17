@@ -10,32 +10,34 @@
             margin: 2em auto; /* Center content, add margin */
             max-width: 800px; /* Max width for readability */
             padding: 0 1em; /* Padding on sides for smaller screens */
-            background-color: #f8f8f8;
-            color: #333;
+            background-color: black; /* Changed to black background */
+            color: white; /* Changed text color to white */
             line-height: 1.6;
         }
         h1 {
-            color: #2188ff; /* GitHub-like blue */
-            border-bottom: 2px solid #eee;
+            color: #2188ff; /* GitHub-like blue - still stands out on black */
+            border-bottom: 2px solid #333; /* Darker border for contrast */
             padding-bottom: 0.5em;
             margin-bottom: 1em;
         }
         h2 {
-            color: #333;
+            color: #E0E0E0; /* Lighter gray for headings on black */
             margin-top: 1.5em;
             margin-bottom: 0.5em;
         }
         h3 {
-            color: #555;
+            color: #C0C0C0; /* Slightly darker light gray for subheadings */
             margin-top: 1em;
             margin-bottom: 0.5em;
         }
         p {
+            color: #E0E0E0; /* Light gray for paragraphs */
             margin-bottom: 1em;
         }
         ol, ul {
             margin-left: 2em;
             margin-bottom: 1em;
+            color: #E0E0E0; /* Ensure list items also inherit light gray */
         }
         ol li {
             margin-bottom: 0.5em;
@@ -46,29 +48,43 @@
         }
         strong {
             font-weight: bold;
-            color: #000;
+            color: white; /* Ensure strong text is white for emphasis */
+        }
+        a {
+            color: #4CAF50; /* Example link color that stands out on black */
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #66BB6A; /* Lighter shade on hover */
         }
         code {
-            background-color: #eee;
+            background-color: #333; /* Darker background for code snippets */
+            color: #FFD700; /* Gold color for code to stand out */
             padding: 2px 4px;
             border-radius: 3px;
             font-family: monospace;
             font-size: 0.9em;
         }
         .note {
-            background-color: #e6f7ff;
-            border-left: 4px solid #2188ff;
+            background-color: #282828; /* Darker background for the note block */
+            border-left: 4px solid #2188ff; /* Still using GitHub blue for the border */
             padding: 1em;
             margin: 1.5em 0;
             border-radius: 4px;
+            color: white; /* Ensure text inside note is white */
         }
         .footer {
             margin-top: 3em;
             padding-top: 1em;
-            border-top: 1px solid #eee;
+            border-top: 1px solid #333; /* Darker border for footer */
             font-size: 0.9em;
-            color: #777;
+            color: #B0B0B0; /* Light gray for footer text */
             text-align: center;
+        }
+        hr {
+            border: none; /* Remove default border */
+            border-top: 1px dashed #555; /* Add a subtle dashed line */
+            margin: 2em 0;
         }
     </style>
 </head>
@@ -83,7 +99,9 @@
     <h3>1.2 Scope:</h3>
     <p>This document only covers how to register for a GitHub account; it does not cover how to sign in or how to create your first project.</p>
 
-    <hr> <h2>II. How to Sign Up for GitHub</h2>
+    <hr> <!-- Horizontal line for separation -->
+
+    <h2>II. How to Sign Up for GitHub</h2>
     <ol>
         <li>Go to <a href="https://github.com" target="_blank">GitHub.com</a></li>
         <li>In the top right-hand corner of the screen, click the "Sign up" tab.</li>
@@ -97,4 +115,25 @@
         </li>
         <li>Click the "Continue" button.</li>
         <li>Verify your account by completing a puzzle. You will have the option to choose between a visual or an audio puzzle. Click the appropriate button.</li>
-        <li>Complete the puzzle and click the "
+        <li>Complete the puzzle and click the "Verify" or "Complete" button.</li>
+        <li>Check your email inbox. GitHub will have sent you a verification code. Enter this code on the GitHub website.</li>
+        <li>You will now be directed to the GitHub login screen. Enter your username or email address and your password.</li>
+        <li>Click the "Sign in" or "Log in" button.</li>
+        <li><strong>Congratulations! You are now logged in to GitHub.</strong></li>
+    </ol>
+
+    <div class="note">
+        <p>We recommend taking the opportunity to explore the learning material about "Introduction to GitHub" and introducing yourself to the community using the "Introduce yourself with a profile README" feature.</p>
+    </div>
+
+    <hr> <!-- Horizontal line for separation -->
+
+    <h2>III. Key Takeaways</h2>
+    <p>The process of creating a GitHub account presents few challenges and is generally straightforward, with ample information available if needed. Ensuring easy access to your email is important for the account verification. Signing up on a laptop can streamline the process of accessing both your email and the GitHub website. The sign-up process can be completed quickly, as demonstrated by a successful registration in approximately 5 minutes.</p>
+
+    <div class="footer">
+        <p>Last updated: June 17, 2025</p>
+    </div>
+
+</body>
+</html>
